@@ -1,8 +1,8 @@
 ##The below code gets the posts and outputs the title and the excerpt.
 - It is a while loop
-- the_post() function is the iteration such as $i = 0;
-- the_excerpt() and the_title() is echoing out the content
-- Can also use the_content()
+- the_post() function is the iteration such as `$i = 0;`
+- `the_excerpt()` and `the_title()` is echoing out the content
+- Can also use `the_content()`
 
 ```
 <?php
