@@ -3,6 +3,17 @@
     <?php wp_head(); ?>
 </head>
 <body>
-    <h1>Body of header</h1>
+
+<style>
+    *{
+        margin:0;
+    }
+    nav{
+        background: green;
+        height:50px;
+    }
+</style>
+    <nav>
+    </nav>
 </body>
 </html>

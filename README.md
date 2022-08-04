@@ -30,3 +30,25 @@ while (have_posts()){
 <h2><?php the_title();?></h2>
 ```
 - Anchor tag removed
+- `the_content()` function also can go in single.php to display the post content
+
+
+## `header.php` and `footer.php`
+
+- These two files are included in other files with the following functions:
+
+```
+get_header();
+get_footer();
+```
+
+- Inside the header.php we include the opening HTML boilerplate
+- A difference is that the stylesheet is loaded y using a function:
+
+```
+<head>
+    <?php wp_head();?>
+</head>
+```
+## functions.php
+
