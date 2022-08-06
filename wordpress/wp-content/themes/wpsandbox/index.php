@@ -1,6 +1,10 @@
 <?php
 
-get_header();
+get_header();?>
+
+<nav></nav>
+
+<?php
 
 while (have_posts()){
     the_post();?>

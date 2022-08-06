@@ -1,7 +1,7 @@
 <?php
 
-// function wpsandbox_files() {
-//     wp_enqueue_style('style.css', get_template_directory_uri())
-// }
+function load_css() {
+    wp_enqueue_style('style_css', get_stylesheet_uri());
+}
 
-// add_action('wp_enqueue_scripts', 'wpsandbox_files');
+add_action('wp_enqueue_scripts', 'load_css');
